@@ -19,4 +19,12 @@ public class Chiamata {
     public String getCallNumber() {
         return callNumber;
     }
+
+    @Override
+    public String toString() {
+        return "Chiamata{" +
+                "callDuration=" + callDuration +
+                ", callNumber='" + callNumber + '\'' +
+                '}';
+    }
 }

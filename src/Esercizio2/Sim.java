@@ -18,8 +18,8 @@ public class Sim {
     }
 
     //    METODI
-    public void setListaChiamate(Chiamata[] listaChiamate) {
-        this.lastCall = listaChiamate;
+    public void setLastCall(Chiamata[] lastCall) {
+        this.lastCall = lastCall;
     }
 
     public void stampaSim() {
